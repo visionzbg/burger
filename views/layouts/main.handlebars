@@ -1,16 +1,27 @@
 {{!-- * Create the `main.handlebars` file inside `layouts` directory.
 
      * Setup the `main.handlebars` file so it's able to be used by Handlebars. --}}
-     <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
-		<title>MVC With Cats!</title>
-		<script src="https://code.jquery.com/jquery.js"></script>
-		<script src="/assets/js/cats.js"></script>
-	</head>
-	<body>
-		{{{ body }}}
-	</body>
-</html>
+
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+      <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/burger_style.css">
+     <link rel="shortcut icon" href="assets/images/Burger.png" />
+    <title>Eat the Burger!</title>
+  </head>
+  <body>
+    <div class="container">
+      {{> nav/navbar}}
+
+      {{{ body }}}
+    </div>
+  </body>
+<html>

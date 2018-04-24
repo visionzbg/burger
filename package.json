@@ -1,14 +1,15 @@
 {
-  "name": "bootcamp",
+  "name": "burger",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Gary Estime",
   "license": "ISC",
   "repository": {
     "type": "git",
