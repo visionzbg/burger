@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>burgers_db</string>
+			<key>host</key>
+			<string>127.0.0.1</string>
+			<key>name</key>
+			<string>Localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYaIVUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTSFwsYGVxOU1JhbmdlQ291bnQQAIAG0hscHR5aJGNsYXNz
+			bmFtZVgkY2xhc3Nlc1pOU0luZGV4U2V0oh8gWk5TSW5kZXhTZXRY
+			TlNPYmplY3TSGxwiI1xOU0RpY3Rpb25hcnmiIiBfEA9OU0tleWVk
+			QXJjaGl2ZXLRJidUZGF0YYABAAgAEQAaACMALQAyADcAQABGAE0A
+			VQBgAGcAagBsAG4AcQBzAHUAdwB8AIEAoQCmALMAtQC3ALwAxwDQ
+			ANsA3gDpAPIA9wEEAQcBGQEcASEAAAAAAAACAQAAAAAAAAAoAAAA
+			AAAAAAAAAAAAAAABIw==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {586, 910}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>CREATE DATABASE burgers_db;
+
+USE burgers_db;
+
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+);</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>214</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>CREATE DATABASE burgers_db;
+USE burgers_db;
+CREATE TABLE burgers
+(
+	id int NOT NULL AUTO_INCREMENT,
+	burger_name varchar(255) NOT NULL,
+	devoured BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
+)</string>
+		<string>CURRENT_TIME() AS string_now,</string>
+		<string>CURRENT_TIME() AS string_now</string>
+		<string>time TIMESTAMP VALUE</string>
+		<string>CREATE DATABASE chirpy;
+USE chirpy;
+CREATE TABLE `chirps`
+
+  -- TABLE CODE TO GO HERE
+(
+	id int NOT NULL AUTO_INCREMENT,
+	author varchar(255) NOT NULL,
+	chirp TEXT NOT NULL,
+	time TIMESTAMP 'str'
+)</string>
+		<string>CREATE DATABASE chirpy;
+USE chirpy;
+CREATE TABLE `chirps` (
+
+  -- TABLE CODE TO GO HERE
+(
+	id int NOT NULL AUTO_INCREMENT,
+	author varchar(255) NOT NULL,
+	chirp TEXT NOT NULL,
+	time TIMESTAMP 'str'
+)</string>
+		<string>(
+	id int NOT NULL AUTO_INCREMENT,
+	author varchar(255) NOT NULL,
+	chirp varchar(255) NOT NULL,
+	time TIMESTAMP 'str',
+)</string>
+		<string>CREATE DATABASE chirpy;
+USE chirpy;
+CREATE TABLE `chirps` (
+
+  -- TABLE CODE TO GO HERE
+(
+	id int NOT NULL AUTO_INCREMENT,
+	author varchar(255) NOT NULL,
+	chirp TEXT NOT NULL,
+	time TIMESTAMP 'str',
+)</string>
+		<string>CREATE DATABASE quotes_db;
+USE quotes_db;
+CREATE TABLE quotes
+(
+	id int NOT NULL AUTO_INCREMENT,
+	author varchar(255) NOT NULL,
+	quote TEXT NOT NULL,
+	PRIMARY KEY (id)
+)</string>
+		<string>SELECT * FROM top3000</string>
+		<string>SELECT * FROM topAlbums</string>
+		<string>position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    album VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)</string>
+		<string>USE top_albumsDB;
+CREATE TABLE top3000 (
+    position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    album VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)
+);
+SELECT * FROM topAlbums</string>
+		<string>CREATE DATABASE top_albumsDB;
+USE top_albumsDB;
+CREATE TABLE top3000 (
+    position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    album VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)
+);
+SELECT * FROM topAlbums</string>
+		<string>DROP DATABASE IF EXISTS top_albumsDB;
+CREATE DATABASE top_albumsDB;
+USE top_albumsDB;
+CREATE TABLE top3000 (
+    position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    album VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)
+);
+SELECT * FROM topAlbums</string>
+		<string>DROP DATABASE IF EXISTS topsongsDB;
+CREATE DATABASE top_albumsDB;
+USE top_albumsDB;
+CREATE TABLE top5000 (
+    position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    album VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)
+);
+SELECT * FROM topAlbums</string>
+		<string>SELECT * FROM top5000</string>
+		<string>DROP DATABASE IF EXISTS topsongsDB;
+CREATE DATABASE top_songsDB;
+USE top_songsDB;
+CREATE TABLE top5000 (
+    position INT NOT NULL,
+    artist VARCHAR(100) NULL,
+    song VARCHAR(100) NULL,
+    year INT NULL,
+    raw_total DECIMAL(10,4) NULL,
+    raw_usa DECIMAL(10,4) NULL,
+    raw_uk DECIMAL(10,4) NULL,
+    raw_eur DECIMAL(10,4) NULL,
+    raw_row DECIMAL(10,4) NULL,
+    PRIMARY KEY (position)
+);
+SELECT * FROM top5000</string>
+		<string>DROP DATABASE IF EXISTS Gary_DB;
+CREATE DATABASE Gary_DB;
+USE Gary_DB;
+CREATE TABLE myTable(
+  id INT NOT NULL AUTO_INCREMENT,
+  Blah VARCHAR(45) NULL,
+  Blah, Blah VARCHAR(45) NULL,
+  Blah, Blah, Blah VARCHAR(45) NULL,
+  PRIMARY KEY (id)
+);
+INSERT INTO Blah (title, artist, genre)
+VALUES ("pling", "plang", "plunk")</string>
+		<string>USE Gary_DB;
+CREATE DATABASE Gary_DB;
+CREATE TABLE my_info (
+	ROW 1(50),
+	ROW 2(50),
+	ROW 3(50),
+	PRIMARY KEY (ID)
+)</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.21</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
